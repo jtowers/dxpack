@@ -1,7 +1,7 @@
 dxpack
 ============
+
 # Usage
-## Usage
 
 Install as a plugin in the [Salesforce CLI](https://developer.salesforce.com/tools/sfdxcli). 
 ```sh-session
