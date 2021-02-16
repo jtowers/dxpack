@@ -1,5 +1,15 @@
 dxpack
 ============
+# Usage
+## Usage
+
+Install as a plugin in the [Salesforce CLI](https://developer.salesforce.com/tools/sfdxcli). 
+```sh-session
+$ sfdx plugins:install @jtowers/dxpack
+$ sfdx dxpack --help
+```
+
+<!-- usagestop -->
   # Commands
   <!-- commands -->
 * [`sfdx dxpack:package:update:push -i <string> [-f <string>] [-s <datetime>] [-w <number>] [-v <string>] [--apiversion <string>] [--json] [--loglevel trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]`](#sfdx-dxpackpackageupdatepush--i-string--f-string--s-datetime--w-number--v-string---apiversion-string---json---loglevel-tracedebuginfowarnerrorfataltracedebuginfowarnerrorfatal)
