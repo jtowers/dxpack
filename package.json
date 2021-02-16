@@ -1,7 +1,8 @@
 {
   "name": "@jtowers/dxpack",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "John Towers @jtowers",
+  "private": false,
   "bugs": "https://github.com/jtowers/dxpack/issues",
   "dependencies": {
     "@oclif/command": "^1",

@@ -63,6 +63,8 @@ EXAMPLES
   0DV4x000000kA5j
 ```
 
+_See code: [lib/commands/dxpack/package/update/push.js](https://github.com/jtowers/dxpack/blob/v0.0.1/lib/commands/dxpack/package/update/push.js)_
+
 ## `sfdx dxpack:package:update:status -i <string> [-v <string>] [--apiversion <string>] [--json] [--loglevel trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]`
 
 check the status of the specified push request
@@ -98,4 +100,6 @@ EXAMPLE
        0DV4x0000000001234  Succeeded  04t4x0000000001234  18                2021-02-13T19:30:00.000+0000  
   2021-02-13T19:30:01.049+0000  2021-02-13T19:30:19.832+0000
 ```
+
+_See code: [lib/commands/dxpack/package/update/status.js](https://github.com/jtowers/dxpack/blob/v0.0.1/lib/commands/dxpack/package/update/status.js)_
 <!-- commandsstop -->
