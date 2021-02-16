@@ -1,5 +1,5 @@
 {
-  "commandDescription": "push a package update",
+  "commandDescription": "push a package update to subscriber orgs",
   "versionFlagDescription": "package version to push",
   "scheduleStartFlagDescription": "date and time to schedule the update for. Leave blank to update immediately.",
   "subscriberFilterDescription": "SOQL Where clause to use to include orgs to upgrade. Uses fields on PackageSubscriber SObject",

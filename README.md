@@ -8,8 +8,6 @@ Install as a plugin in the [Salesforce CLI](https://developer.salesforce.com/too
 $ sfdx plugins:install @jtowers/dxpack
 $ sfdx dxpack --help
 ```
-
-<!-- usagestop -->
   # Commands
   <!-- commands -->
 * [`sfdx dxpack:package:update:push -i <string> [-f <string>] [-s <datetime>] [-w <number>] [-v <string>] [--apiversion <string>] [--json] [--loglevel trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]`](#sfdx-dxpackpackageupdatepush--i-string--f-string--s-datetime--w-number--v-string---apiversion-string---json---loglevel-tracedebuginfowarnerrorfataltracedebuginfowarnerrorfatal)
@@ -17,10 +15,10 @@ $ sfdx dxpack --help
 
 ## `sfdx dxpack:package:update:push -i <string> [-f <string>] [-s <datetime>] [-w <number>] [-v <string>] [--apiversion <string>] [--json] [--loglevel trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]`
 
-push a package update
+push a package update to subscriber orgs
 
 ```
-push a package update
+push a package update to subscriber orgs
 
 USAGE
   $ sfdx dxpack:package:update:push -i <string> [-f <string>] [-s <datetime>] [-w <number>] [-v <string>] [--apiversion 
@@ -73,7 +71,7 @@ EXAMPLES
   0DV4x000000kA5j
 ```
 
-_See code: [lib/commands/dxpack/package/update/push.js](https://github.com/jtowers/dxpack/blob/v0.0.1/lib/commands/dxpack/package/update/push.js)_
+_See code: [lib/commands/dxpack/package/update/push.js](https://github.com/jtowers/dxpack/blob/v0.0.2/lib/commands/dxpack/package/update/push.js)_
 
 ## `sfdx dxpack:package:update:status -i <string> [-v <string>] [--apiversion <string>] [--json] [--loglevel trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]`
 
@@ -111,5 +109,5 @@ EXAMPLE
   2021-02-13T19:30:01.049+0000  2021-02-13T19:30:19.832+0000
 ```
 
-_See code: [lib/commands/dxpack/package/update/status.js](https://github.com/jtowers/dxpack/blob/v0.0.1/lib/commands/dxpack/package/update/status.js)_
+_See code: [lib/commands/dxpack/package/update/status.js](https://github.com/jtowers/dxpack/blob/v0.0.2/lib/commands/dxpack/package/update/status.js)_
 <!-- commandsstop -->
