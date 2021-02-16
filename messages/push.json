@@ -1,0 +1,13 @@
+{
+  "commandDescription": "push a package update",
+  "versionFlagDescription": "package version to push",
+  "scheduleStartFlagDescription": "date and time to schedule the update for. Leave blank to update immediately.",
+  "subscriberFilterDescription": "SOQL Where clause to use to include orgs to upgrade. Uses fields on PackageSubscriber SObject",
+  "scheduleFuture": "--schedulestarttime must be in the future",
+  "packageNotFound": "No matching package version found. Ensure the provided version id is correct and that the package version is released.",
+  "noSubscribers": "No eligible subscribers found",
+  "pushJobCreateError": "Error creating push jobs",
+  "packageRequestUpdateError": "Error updating package request status",
+  "successNoWait": "Package Push Request created. Check the status by running sfdx packageutils:package:update:status -i %s",
+  "successWait" : "Package install %s"
+}

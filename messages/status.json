@@ -1,0 +1,5 @@
+{
+  "commandDescription": "check the status of the specified push request",
+  "idDescription": "Id of the PackageRequest record to check for",
+  "errorNoOrgResults": "No results found for provided push request: '%s'."
+}
